@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Pratima Seva</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="title_activity_main">Home</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="userdrawer_open">Open</string>
+    <string name="userdrawer_close">Close</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_find">Find a Blood Donor</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_blood_donation">Blood Donation Facts</string>
+    <string name="title_activity_doner">Home</string>
+    <string name="title_activity_profile_upload">Profile Picture</string>
+    <string name="title_activity_donorlist">Blood Donors</string>
+    <string name="title_activity_donor_public_profile">Profile</string>
+    <string name="title_activity_user_profile">My Profile</string>
+
+    <string-array name="bloodneed">
+        <item>\u2022 Every year our nation requires about 5 Crore units of blood, out of which only a meager 2.5 Crore units of blood are available.</item>
+        <item>\u2022 The gift of blood is the gift of life. There is no substitute for human blood.</item>
+        <item>\u2022 Every two seconds someone needs blood.</item>
+        <item>\u2022 More than 38,000 blood donations are needed every day.</item>
+        <item>\u2022 A total of 30 million blood components are transfused each year.</item>
+        <item>\u2022 The average red blood cell transfusion is approximately 3 pints.</item>
+        <item>\u2022 The blood type most often requested by hospitals is Type O.</item>
+        <item>\u2022 Sickle cell patients can require frequent blood transfusions throughout their lives.</item>
+        <item>\u2022 More than 1 million new people are diagnosed with cancer each year. Many of them will need blood, sometimes daily, during their chemotherapy treatment.</item>
+        <item>\u2022 A single car accident victim can require as many as 100 units of blood.</item>
+    </string-array>
+
+    <string-array name="bloodsupply">
+        <item>\u2022 Blood cannot be manufactured – it can only come from generous donors.</item>
+        <item>\u2022 Type O-negative blood (red cells) can be transfused to patients of all blood types. It is always in great demand and often in short supply.</item>
+        <item>\u2022 Type AB-positive plasma can be transfused to patients of all other blood types. AB plasma is also usually in short supply.</item>
+    </string-array>
+
+    <string-array name="blooddonationprocess">
+        <item>\u2022 Donating blood is a safe process. A sterile needle is used only once for each donor and then discarded.</item>
+        <item>\u2022 Blood donation is a simple four-step process: registration, medical history and mini-physical, donation and refreshments.</item>
+        <item>\u2022 Every blood donor is given a mini-physical, checking the donor\'s temperature, blood pressure, pulse and hemoglobin to ensure it is safe for the donor to give blood.</item>
+        <item>\u2022 The actual blood donation typically takes less than 10-12 minutes. The entire process, from the time you arrive to the time you leave, takes about an hour and 15 min.</item>
+        <item>\u2022 The average adult has about 10 units of blood in his body. Roughly 1 unit is given during a donation.</item>
+        <item>\u2022 A healthy donor may donate red blood cells every 56 days, or double red cells every 112 days.</item>
+        <item>\u2022 A healthy donor may donate platelets as few as 7 days apart, but a maximum of 24 times a year.</item>
+        <item>\u2022 All donated blood is tested for HIV, hepatitis B and C, syphilis and other infectious diseases before it can be transfused to patients.</item>
+    </string-array>
+
+    <string-array name="elig">
+        <item>\u2022 Any donor, who is healthy, fit and not suffering from any transmittable diseases can donate blood.</item>
+        <item>\u2022 Donor must be 18 -60 years age and having a minimum weight of 50Kg can donate blood.</item>
+        <item>\u2022 Donor’s Hemoglobin level is 12.5% minimum.</item>
+        <item>\u2022 A donor can again donate blood after 3 months of your last donation of blood.</item>
+        <item>\u2022 Pulse rate must be between 50 to 100mm without any irregularities.</item>
+        <item>\u2022 BP Diastolic 50 to 100 mm Hg and Systolic 100 to 180 mm Hg.</item>
+        <item>\u2022 Body temperature should be normal and oral temperature should not exceed 37.5 degree Celsius.</item>
+    </string-array>
+
+    <string-array name="nonelig">
+        <item>\u2022 Donors should not suffer from Cardiac arrest, hypertension, kidney alignments, epilepsy or diabetics.</item>
+        <item>\u2022 Ladies with a bad miscarriage should avoid donating blood for the next 6 months.</item>
+        <item>\u2022 If donor already donated blood or have been treated for malaria within the last three months.</item>
+        <item>\u2022 If donor undergone any immunization within the past one month.</item>
+        <item>\u2022 If donor consumed alcohol within the last 24 hours.</item>
+        <item>\u2022 If donor had a dental work for next 24 hours and wait for one month if donor had a major dental procedure.</item>
+    </string-array>
+
+    <string-array name="preparation">
+        <item>\u2022 Prepare yourself by having enough fruit juice and water in the night and morning before you donate blood.</item>
+        <item>\u2022 Avoid donating blood in empty stomach. Eat three hours before you donate blood. Avoid fatty foods. Eat food which is rich in iron such as whole grains,eggs,and beef,and spinach,leafy vegetables,orange and citrus.</item>
+        <item>\u2022 Don’t consume Alcohol or caffeine beverages before donating blood.</item>
+        <item>\u2022 Avoid donating blood for 6 months if you had any major surgery.</item>
+    </string-array>
+
+    <string-array name="doncare">
+        <item>\u2022 Have some rest 5 to 20 minutes after donation. Do not drive after donation of blood.</item>
+        <item>\u2022 Have some snacks and juice with high sugar content which will help to rejuvenate the blood sugar back up.</item>
+        <item>\u2022 Have a good meal with high protein content such as Chicken, etc,.</item>
+        <item>\u2022 Do not consume Alcohol for 8 hours after donation of blood.</item>
+        <item>\u2022 Avoid going for a heavy body works such as gym, dancing, running etc at least for next one day.</item>
+    </string-array>
+
+    <string name="title_activity_donor_history">My History</string>
+    <string name="title_activity_update_profile">Edit Profile</string>
+    <string name="title_activity_whocan">Blood Donation Guidelines</string>
+    <string name="title_activity_reg_profile">RegProfileActivity</string>
+
+</resources>

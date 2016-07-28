@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context=".UpdateProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgViewupdate"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_color="#ffffff"
+        app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/textimgchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="#fff"
+        android:padding="3dp"
+        android:text="Change"
+        android:textColor="#000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/updatename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#20000000"
+            android:hint="Name"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/updateph_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#20000000"
+            android:hint="PhoneNumber"
+            android:inputType="number"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:editable="false"
+            android:paddingTop="5dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/updateemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#20000000"
+            android:hint="Email"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/updatebirth_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#20000000"
+            android:hint="Birth Date"
+            android:inputType="date"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColorHint="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/upadteblood_gp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#20000000"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/updatetime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#20000000"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:spinnerMode="dialog" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/updateaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#20000000"
+            android:hint="Address"
+            android:inputType="text"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/updatepincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#20000000"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColorHint="#000" />
+
+        <Spinner
+            android:id="@+id/updatecountry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#20000000"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:spinnerMode="dialog" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/updatestate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#20000000"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/updatecity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#20000000"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:spinnerMode="dialog" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

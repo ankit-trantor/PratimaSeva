@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="10dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/DonorlImage"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Name"
+                android:drawableLeft="@drawable/ic_person"
+                android:id="@+id/DonorlName"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/DonorlImage"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:drawableLeft="@drawable/ic_opacity"
+                android:id="@+id/DonorlBlood"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/DonorlName"
+                android:layout_toRightOf="@id/DonorlImage"
+                android:layout_toEndOf="@id/DonorlImage"
+                android:textColor="#666"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="sd"
+                android:drawableLeft="@drawable/ic_phone"
+                android:id="@+id/DonorlLocation"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/DonorlBlood"
+                android:layout_toRightOf="@id/DonorlImage"
+                android:textColor="#666"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>

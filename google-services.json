@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "50896523934",
+    "firebase_url": "https://pratima-seva.firebaseio.com",
+    "project_id": "pratima-seva",
+    "storage_bucket": "pratima-seva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50896523934:android:3a7ec3d9d6062f50",
+        "android_client_info": {
+          "package_name": "com.app.pratimaseva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50896523934-jnd5i4e44gjff0datj0jj4pct9re9pt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlpaTnuPDcWJlnUfXS53mHHxo3a2rHnTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

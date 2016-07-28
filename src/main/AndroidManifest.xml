@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.pratimaseva">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_small"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FindActivity"
+            android:label="@string/title_activity_find"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BloodDonationActivity"
+            android:label="@string/title_activity_blood_donation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DonerActivity"
+            android:label="@string/title_activity_doner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileUploadActivity"
+            android:label="@string/title_activity_profile_upload"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DonorlistActivity"
+            android:label="@string/title_activity_donorlist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DonorPublicProfileActivity"
+            android:label="@string/title_activity_donor_public_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:label="@string/title_activity_user_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DonorHistoryActivity"
+            android:label="@string/title_activity_donor_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:label="@string/title_activity_update_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WhocanActivity"
+            android:label="@string/title_activity_whocan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegProfileActivity"
+            android:label="@string/title_activity_reg_profile"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

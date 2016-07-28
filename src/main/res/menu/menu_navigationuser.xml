@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/blooddonation"
+            android:title="Blood Donation Facts"
+            android:icon="@drawable/ic_opacity"/>
+
+        <item
+            android:id="@+id/who"
+            android:title="Blood Donation Guidelines"
+            android:icon="@drawable/ic_whodonate"/>
+
+        <item
+            android:id="@+id/mision"
+            android:title="Vision and Mission"
+            android:icon="@drawable/ic_mision"/>
+
+        <item
+            android:id="@+id/contact"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_local_phone"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="About Us"
+            android:icon="@drawable/ic_info"/>
+
+    </group>
+</menu>

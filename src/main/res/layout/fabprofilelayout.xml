@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/mLlayoutBottomButtons"></RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mLlayoutBottomButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#673AB7"
+            android:drawableLeft="@drawable/ic_local_phone"
+            android:drawablePadding="5dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Call"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C62828"
+            android:drawableLeft="@drawable/ic_report"
+            android:drawablePadding="5dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Report"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:drawableLeft="@drawable/ic_share"
+            android:drawablePadding="5dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Share"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
